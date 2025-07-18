@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">CurrencyAi</string>
+    <string-array name="currency_names">
+        <item>USD - US Dollar</item>
+        <item>EUR - Euro</item>
+        <item>INR - Indian Rupee</item>
+        <item>GBP - British Pound</item>
+        <item>JPY - Japanese Yen</item>
+        <item>AUD - Australian Dollar</item>
+        <item>CAD - Canadian Dollar</item>
+        <item>CHF - Swiss Franc</item>
+        <item>CNY - Chinese Yuan</item>
+        <item>HKD - Hong Kong Dollar</item>
+        <item>NZD - New Zealand Dollar</item>
+        <item>SGD - Singapore Dollar</item>
+        <item>SEK - Swedish Krona</item>
+        <item>NOK - Norwegian Krone</item>
+        <item>DKK - Danish Krone</item>
+        <item>KRW - South Korean Won</item>
+        <item>BRL - Brazilian Real</item>
+        <item>RUB - Russian Ruble</item>
+        <item>ZAR - South African Rand</item>
+    </string-array>
+</resources>

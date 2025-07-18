@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/convertedCurrencyTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="0"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/amountEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Type Your Amnt"
+        app:layout_constraintTop_toBottomOf="@+id/convertedCurrencyTv"
+        android:inputType="number"
+        android:layout_marginTop="50dp"/>
+
+    <LinearLayout
+        android:id="@+id/cLl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/amountEt"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatSpinner
+            android:id="@+id/firstSpinner"
+            android:layout_width="0dp"
+             android:layout_height="40dp"
+            android:layout_weight="1"
+            android:entries="@array/currency_names"/>
+
+        <androidx.appcompat.widget.AppCompatSpinner
+            android:id="@+id/secondSpinner"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:entries="@array/currency_names"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/convertBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:text="Convert"
+        app:layout_constraintTop_toBottomOf="@+id/cLl"
+
+
+        tools:layout_editor_absoluteX="16dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
