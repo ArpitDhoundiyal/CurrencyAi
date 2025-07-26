@@ -1,8 +1,8 @@
-💱 AI-Powered Currency Converter App (Using Gemini)
+###💱 AI-Powered Currency Converter App (Using Gemini)
 
 A sleek and intelligent currency converter Android app powered by Google's Gemini AI. This app goes beyond traditional dropdowns and fields — just ask in natural language, and the AI will handle the rest!
 
-🚀 Features
+##🚀 Features
 
 🌍 Convert currencies using real-time exchange rates
 
@@ -14,7 +14,7 @@ A sleek and intelligent currency converter Android app powered by Google's Gemin
 
 ☁️ Integrated with REST API for live exchange rates
 
-🛠️ Tech Stack
+##🛠️ Tech Stack
 
 Android – Kotlin, Jetpack Compose
 
@@ -28,7 +28,7 @@ Hilt – Dependency Injection
 
 Coroutines & Flow – Asynchronous data handling
 
-🤖 How the AI Agent Works
+#🤖 How the AI Agent Works
 
 User types or speaks a natural language querye.g., "What's 75 CAD in INR?"
 
@@ -45,12 +45,12 @@ Exchange rate API fetches current conversion rate
 App displays the final converted amount
 
 
-📦 Installation
+##📦 Installation
 
 Clone this repo:
 
-git clone https://github.com/your-username/ai-currency-converter.git
-cd ai-currency-converter
+git clone https://github.com/ArpitDhoundiyal/CurrencyAi.git
+cd CurrencyAi
 
 Open in Android Studio
 
@@ -62,7 +62,7 @@ Gemini API Key (if using secured setup)
 
 Run on emulator or device
 
-🔑 API Keys Setup
+#🔑 API Keys Setup
 
 Create a local.properties file (or use environment variables):
 
